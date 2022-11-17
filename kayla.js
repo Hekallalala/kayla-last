@@ -174,7 +174,7 @@ var mde = ['red','green','yellow','blue','magenta','cyan','white']
 var halale = mde[Math.floor(Math.random() * mde.length)]
 
 if (isCmd) {
-console.log(chalk.yellow.bgCyan.bold(' - 𝑯𝒚𝒖𝒈𝒂 '), color(`[ PESAN ]`, `${halalu}`), color(`FROM`, `${halalo}`), color(`${pushname}`, `${halali}`), color(`Text :`, `${halala}`), color(`${body}`, `${halale}`))
+console.log(chalk.yellow.bgCyan.bold(' - 𝙺𝚊𝚢𝚕𝚊 𝙱𝚘𝚝 '), color(`[ PESAN ]`, `${halalu}`), color(`FROM`, `${halalo}`), color(`${pushname}`, `${halali}`), color(`Text :`, `${halala}`), color(`${body}`, `${halale}`))
 }
 
 if (isCmd && !isUser) {
@@ -447,8 +447,8 @@ participant: `0@s.whatsapp.net`,
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `Hyuga bot WhatsApp${ngazap(prefix)}`,
-"orderTitle": "Hyuga bot WhatsApp${ngazap(prefix)}",
+"message": `Kayla Bot WhatsApp${ngazap(prefix)}`,
+"orderTitle": "Kayla Bot WhatsApp${ngazap(prefix)}",
 "sellerJid": "6281270975930@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
@@ -531,7 +531,7 @@ templateButtons: [
 ]})
 }
 
-const botzhyuga = "6281270975930@s.whatsapp.net"
+const botzkayla = "6281270975930@s.whatsapp.net"
 const mark = "0@s.whatsapp.net"
 const timestamp = speed()
 const latensi = speed() - timestamp
@@ -544,8 +544,8 @@ location: { jpegThumbnail: ppnyauser } ,
 caption: `Hai Kak @${sender.split("@")[0]} 
 𝘚𝘢𝘺𝘢 Gilzz Botz 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 𝘠𝘢𝘯𝘨 𝘉𝘪𝘴𝘢 𝘔𝘦𝘮𝘣𝘢𝘯𝘵𝘶 𝘈𝘯𝘥𝘢 𝘔𝘦𝘮𝘣𝘶𝘢𝘵 𝘚𝘵𝘪𝘤𝘬𝘦𝘳, 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘝𝘪𝘥𝘦𝘰/𝘈𝘶𝘥𝘪𝘰 𝘛𝘪𝘬𝘵𝘰𝘬, 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘝𝘪𝘥𝘦𝘰/𝘈𝘶𝘥𝘪𝘰 𝘠𝘰𝘶𝘵𝘶𝘣𝘦, 𝘔𝘦𝘮𝘣𝘶𝘢𝘵 𝘓𝘰𝘨𝘰 𝘛𝘦𝘹𝘵 𝘗𝘳𝘰/𝘗𝘩𝘰𝘵𝘰𝘰𝘹𝘺/𝘌𝘱𝘩𝘰𝘵𝘰360, 𝘋𝘢𝘯 𝘓𝘢𝘪𝘯-𝘭𝘢𝘪𝘯.
 
-Nama ${itsMeHyuga ? 'Owner' : 'User'} : ${pushname}
-Nomor ${itsMeHyuga ? 'Owner' : 'User'} : ${sender.split("@")[0]}
+Nama ${itsMeKayla ? 'Owner' : 'User'} : ${pushname}
+Nomor ${itsMeKayla ? 'Owner' : 'User'} : ${sender.split("@")[0]}
 Jumlah User : ${pendaftar.length} User
 Status : ${itsMeKayla ? 'Owner' : 'User'}
 Status Premium : ${isPrem ? 'Premium User' : 'Free User'}
@@ -974,7 +974,7 @@ const listMenuMessage = {
 text: `Silahkan Kak @${sender.split("@")[0]} Pencet Button List Message Nya Di Bawah Ya`,
 mentions: [sender],
 footer: fake,
-buttonText: '𝙼𝚎𝚗𝚞 𝑯𝒚𝒖𝒈𝒂 𝙱𝚘𝚝𝚣',
+buttonText: '𝙼𝚎𝚗𝚞 𝙶𝚒𝚕𝚣𝚣 𝙱𝚘𝚝𝚣',
 sections: seactions,
 listType: 1}
 
@@ -1069,8 +1069,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn',
-"sourceUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn'
+"mediaUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy',
+"sourceUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
 }
 }
 })
@@ -1107,8 +1107,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn',
-"sourceUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn'
+"mediaUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy',
+"sourceUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
 }
 }
 })
@@ -1126,8 +1126,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn',
-"sourceUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn'
+"mediaUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy',
+"sourceUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
 }
 }
 })
@@ -1145,8 +1145,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": ppnyauser,
-"mediaUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn',
-"sourceUrl": 'https://chat.whatsapp.com/KQ2i0ATxZTU3bI4TYhV2Jn'
+"mediaUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy',
+"sourceUrl": 'https://chat.whatsapp.com/CxJShadfxYqCVAHHxdHSiy'
 }
 }
 })
@@ -1561,7 +1561,7 @@ break
 case 'menfes': case 'confes':
 if (Object.values(anon.anonymous).find(p => p.check(sender))) return reply("Anda masih didalam room")
 if (m.isGroup) return reply(mess.private)
-if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|isi pesan\nContoh ${prefix+command} 6281270975930|Hai Owner`)
+if (args.length < 1) return reply(`Penggunaan ${prefix+command} nomor|isi pesan\nContoh ${prefix+command} 6287705048235|Hai Owner`)
 if (text > 700) return reply(`Teks Kepanjangan`)
 num = q.split("|")[0].replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 pesan = q.split('|')[1]
@@ -1606,7 +1606,7 @@ return reply(lidt)
 }
 break
 case 'leave':{
-if (m.isGroup && itsMeHyuga && command == "leave") return kayla.groupLeave(from)
+if (m.isGroup && itsMeKayla && command == "leave") return kayla.groupLeave(from)
 if (m.isGroup) return reply("Only private chat")
 var room = Object.values(anon.anonymous).find(p => p.check(sender))
 if (!room) return reply("Anda tidak berada didalam room")
@@ -1873,7 +1873,7 @@ let search = await yts(text)
 url = search.videos[0].url
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 eek = await getBuffer(anu.thumbnail)
-owned = '6281270975930@s.whatsapp.net'
+owned = '6285730794089@s.whatsapp.net'
 ngen = `
 Title : ${anu.title}
 Ext : Search
@@ -1944,9 +1944,9 @@ kayla.sendMessage(from,{image:qrisdonate, caption:`Hai Kak @${sender.split("@")[
 
 Silahkan Scan Qris Di Atas Ya Kak
 Atau Juga Bisa Isi Nomor Payment Di Bawah Ya
-Gopay : ${0812-7097-5930}
-Dana : ${0812-7097-5930}
-Shopeepay : ${0812-7097-5930}
+Gopay : ${gopayno}
+Dana : ${danano}
+Shopeepay : ${shopeepayno}
 
 Makasih Yang Udah ${command} Semoga Rezeki Nya Di Limpahkan Sama Allah SWT.`, mentions: [sender]},{quoted:m})
 }
@@ -2097,7 +2097,7 @@ kayla.sendMessage(creator,{text:`*❏ ORDER ❏*
 break
 case 'addprem':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281270975930`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6287705048235`)
 prrkek = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 let ceknya = await kayla.onWhatsApp(prrkek)
 if (ceknya.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -2107,7 +2107,7 @@ reply(`Nomor ${prrkek} Telah Menjadi Premium!`)
 break
 case 'delprem':
 if (!itsMeKayla) return reply(mess.owner)
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281270975930`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6287705048235`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')+`@s.whatsapp.net`
 unp = prem.indexOf(ya)
 prem.splice(unp, 1)
@@ -2248,7 +2248,7 @@ reply(`Sukses Add List Dengan Kunci : *${args1}*`)
 }
 break
 case 'dellist':
-if (!itsMeHyuga) return reply(mess.owner)
+if (!itsMeKayla) return reply(mess.owner)
 if (!m.isGroup) return reply(mess.group)
 if (db_respon_list.length === 0) return reply(`Belum ada list message di database`)
 if (!q) return reply(`Gunakan dengan cara ${command.slice(1)} *Nama Item*\n\n_Contoh_\n\n${command.slice(1)} namalist`)
@@ -2257,14 +2257,14 @@ delResponList(from, q, db_respon_list)
 reply(`Sukses delete list message dengan key *${q}*`)
 break
 case 'updatelist':
-if (!itsMeHyuga) return reply(mess.owner)
+if (!itsMeKayla) return reply(mess.owner)
 if (!m.isGroup) return reply(mess.group)
 var args1 = q.split("@")[0]
 var args2 = q.split("@")[1]
 if (!q.includes("@")) return reply(`Gunakan dengan cara ${command.slice(1)} *Nama Item@Item*\n\n_Contoh_\n\n${command.slice(1)} namalist@List`)
 if (!isAlreadyResponListGroup(from, db_respon_list)) return reply(`Maaf, untuk key *${args1}* belum terdaftar di group ini`)
 if (/image/.test(mime)) {
-media = await Hyuga.downloadAndSaveMediaMessage(quoted)
+media = await kayla.downloadAndSaveMediaMessage(quoted)
 mem = await uptotelegra(media)
 updateResponList(from, args1, args2, true, `${mem}`, db_respon_list)
 reply(`Sukses update list message dengan key : *${args1}*`)
@@ -2827,7 +2827,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "7091718154232528",
-"title": `Hyuga Bot WhatsApp ${virus} ${virtex(prefix)}`,
+"title": `Kayla Bot WhatsApp ${virus} ${virtex(prefix)}`,
 "description": `${virus}${virtex(prefix)}`,
 "currencyCode": "IDR",
 "priceAmount1000": "100000000000000000",
@@ -2835,9 +2835,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6281270975930`
+"url": `https://wa.me/6287705048235`
 },
-"businessOwnerJid": "6281270975930@s.whatsapp.net",
+"businessOwnerJid": "6287705048235@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kayla.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -2864,9 +2864,9 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/6281270975930`
+"url": `https://wa.me/6287705048235`
 },
-"businessOwnerJid": "6281270975930@s.whatsapp.net",
+"businessOwnerJid": "6287705048235@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 kayla.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -3522,7 +3522,7 @@ jpegThumbnail: ppnyauser,
 caption: `Nih Kak @${sender.split("@")[0]}`,
 fileLength: "999999999999",
 mentions: [sender],
-footer: `Powered By Hyuga`,
+footer: `Powered By Kayla`,
 buttons: buttoons,
 headerType: 4,
 contextInfo: {
@@ -3979,7 +3979,7 @@ kayla.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 } catch (err) {
 console.log(util.format(err))
 let e = String(err)
-sendHyugaMessage("6281270975930@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
+sendKaylaMessage("6287705048235@s.whatsapp.net", { text: "Hallo Owner Sepertinya Ada Yang Error Harap Di Perbaiki " + util.format(e), 
 contextInfo:{
 forwardingScore: 5, 
 isForwarded: true

@@ -252,7 +252,7 @@ if (m.isGroup && m.mtype == 'viewOnceMessage') {
 let teks = `╭「 *Anti ViewOnce* 」\n├ *Name* : ${pushname}\n├ *User* : @${m.sender.split("@")[0]}\n├ *Clock* : ${wib} WIB\n└ *Message* : ${m.mtype}`
 kayla.sendMessage(m.chat, { text: teks, mentions: [m.sender] }, { quoted: m })
 await sleep(500)
-m.copyNForward(m.chat, true, {readViewOnce: true}, {quoted: m}).catch(_ => m.reply('Mungkin dah pernah dibuka bot'))
+m.copyNForward(m.chat, false, {readViewOnce: false}, {quoted: m}).catch(_ => m.reply('Mungkin dah pernah dibuka bot'))
 }
 
 const lep = {
